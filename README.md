@@ -3,7 +3,7 @@ Steps:
 * `npm run live` this will work as we're on .170
 
 * Change `next` version in package.json from `15.0.0-canary.170` to `15.0.0-canary.171`,
-  * `rm -rf node_modules && npm install`
+  * `rm -rf node_modules && npm install --force`
   * `npm run live`
   * Should result in this error:
 ```
